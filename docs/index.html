@@ -2,21 +2,24 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="./favicon.ico" />
+    <link rel="icon" href="/gifsExpertApp/favicon.ico" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="./logo192.png" />
-    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="/gifsExpertApp/logo192.png" />
+    <link rel="manifest" href="/gifsExpertApp/manifest.json" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
     <title>GifsExpertApp</title>
-    <link href="./static/css/main.54061665.chunk.css" rel="stylesheet" />
+    <link
+      href="/gifsExpertApp/static/css/main.54061665.chunk.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -25,39 +28,39 @@
       !(function (e) {
         function r(r) {
           for (
-            var n, a, i = r[0], c = r[1], l = r[2], f = 0, s = [];
-            f < i.length;
-            f++
+            var n, i, a = r[0], c = r[1], p = r[2], l = 0, s = [];
+            l < a.length;
+            l++
           )
-            (a = i[f]),
-              Object.prototype.hasOwnProperty.call(o, a) &&
-                o[a] &&
-                s.push(o[a][0]),
-              (o[a] = 0);
+            (i = a[l]),
+              Object.prototype.hasOwnProperty.call(o, i) &&
+                o[i] &&
+                s.push(o[i][0]),
+              (o[i] = 0);
           for (n in c)
             Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
-          for (p && p(r); s.length; ) s.shift()();
-          return u.push.apply(u, l || []), t();
+          for (f && f(r); s.length; ) s.shift()();
+          return u.push.apply(u, p || []), t();
         }
         function t() {
           for (var e, r = 0; r < u.length; r++) {
-            for (var t = u[r], n = !0, i = 1; i < t.length; i++) {
-              var c = t[i];
+            for (var t = u[r], n = !0, a = 1; a < t.length; a++) {
+              var c = t[a];
               0 !== o[c] && (n = !1);
             }
-            n && (u.splice(r--, 1), (e = a((a.s = t[0]))));
+            n && (u.splice(r--, 1), (e = i((i.s = t[0]))));
           }
           return e;
         }
         var n = {},
           o = { 1: 0 },
           u = [];
-        function a(r) {
+        function i(r) {
           if (n[r]) return n[r].exports;
           var t = (n[r] = { i: r, l: !1, exports: {} });
-          return e[r].call(t.exports, t, t.exports, a), (t.l = !0), t.exports;
+          return e[r].call(t.exports, t, t.exports, i), (t.l = !0), t.exports;
         }
-        (a.e = function (e) {
+        (i.e = function (e) {
           var r = [],
             t = o[e];
           if (0 !== t)
@@ -68,13 +71,13 @@
               });
               r.push((t[2] = n));
               var u,
-                i = document.createElement("script");
-              (i.charset = "utf-8"),
-                (i.timeout = 120),
-                a.nc && i.setAttribute("nonce", a.nc),
-                (i.src = (function (e) {
+                a = document.createElement("script");
+              (a.charset = "utf-8"),
+                (a.timeout = 120),
+                i.nc && a.setAttribute("nonce", i.nc),
+                (a.src = (function (e) {
                   return (
-                    a.p +
+                    i.p +
                     "static/js/" +
                     ({}[e] || e) +
                     "." +
@@ -84,7 +87,7 @@
                 })(e));
               var c = new Error();
               u = function (r) {
-                (i.onerror = i.onload = null), clearTimeout(l);
+                (a.onerror = a.onload = null), clearTimeout(p);
                 var t = o[e];
                 if (0 !== t) {
                   if (t) {
@@ -106,36 +109,36 @@
                   o[e] = void 0;
                 }
               };
-              var l = setTimeout(function () {
-                u({ type: "timeout", target: i });
+              var p = setTimeout(function () {
+                u({ type: "timeout", target: a });
               }, 12e4);
-              (i.onerror = i.onload = u), document.head.appendChild(i);
+              (a.onerror = a.onload = u), document.head.appendChild(a);
             }
           return Promise.all(r);
         }),
-          (a.m = e),
-          (a.c = n),
-          (a.d = function (e, r, t) {
-            a.o(e, r) ||
+          (i.m = e),
+          (i.c = n),
+          (i.d = function (e, r, t) {
+            i.o(e, r) ||
               Object.defineProperty(e, r, { enumerable: !0, get: t });
           }),
-          (a.r = function (e) {
+          (i.r = function (e) {
             "undefined" != typeof Symbol &&
               Symbol.toStringTag &&
               Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
               Object.defineProperty(e, "__esModule", { value: !0 });
           }),
-          (a.t = function (e, r) {
-            if ((1 & r && (e = a(e)), 8 & r)) return e;
+          (i.t = function (e, r) {
+            if ((1 & r && (e = i(e)), 8 & r)) return e;
             if (4 & r && "object" == typeof e && e && e.__esModule) return e;
             var t = Object.create(null);
             if (
-              (a.r(t),
+              (i.r(t),
               Object.defineProperty(t, "default", { enumerable: !0, value: e }),
               2 & r && "string" != typeof e)
             )
               for (var n in e)
-                a.d(
+                i.d(
                   t,
                   n,
                   function (r) {
@@ -144,7 +147,7 @@
                 );
             return t;
           }),
-          (a.n = function (e) {
+          (i.n = function (e) {
             var r =
               e && e.__esModule
                 ? function () {
@@ -153,25 +156,25 @@
                 : function () {
                     return e;
                   };
-            return a.d(r, "a", r), r;
+            return i.d(r, "a", r), r;
           }),
-          (a.o = function (e, r) {
+          (i.o = function (e, r) {
             return Object.prototype.hasOwnProperty.call(e, r);
           }),
-          (a.p = "/"),
-          (a.oe = function (e) {
+          (i.p = "/gifsExpertApp/"),
+          (i.oe = function (e) {
             throw (console.error(e), e);
           });
-        var i = (this["webpackJsonpgif-expert-app"] =
+        var a = (this["webpackJsonpgif-expert-app"] =
             this["webpackJsonpgif-expert-app"] || []),
-          c = i.push.bind(i);
-        (i.push = r), (i = i.slice());
-        for (var l = 0; l < i.length; l++) r(i[l]);
-        var p = c;
+          c = a.push.bind(a);
+        (a.push = r), (a = a.slice());
+        for (var p = 0; p < a.length; p++) r(a[p]);
+        var f = c;
         t();
       })([]);
     </script>
-    <script src="./static/js/2.8b3e174d.chunk.js"></script>
-    <script src="./static/js/main.0bfc0166.chunk.js"></script>
+    <script src="/gifsExpertApp/static/js/2.8b3e174d.chunk.js"></script>
+    <script src="/gifsExpertApp/static/js/main.0bfc0166.chunk.js"></script>
   </body>
 </html>
